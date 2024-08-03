@@ -84,6 +84,13 @@ limitations under the License.
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-3rd-party</id>
+            <url>http://172.22.22.9/nexus/content/repositories/thirdparty</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.ehcache</groupId>
